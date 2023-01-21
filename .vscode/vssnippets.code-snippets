@@ -1,0 +1,25 @@
+{
+    "For Loop": {
+      "prefix": ["for", "for-const"],
+      "body": ["for (const ${2:element} of ${1:array}) {", "\t$0", "}"],
+      "description": "A for loop."
+    },
+    "consolelog":{
+        "prefix": ["cl"],
+        "body": ["console.log('cl')"],
+        "description": ["Shortcut for a descriptive console.log statement"]
+    
+        },
+    "uaestate":{
+        "prefix": ["us"],
+        "body": ["const [ , ] = useState();"],
+        "description": ["Shortcut for a descriptive usestate statement"]
+    
+        },
+    "useeffect":{
+        "prefix": ["ef"],
+        "body": ["useEffect(() => {const fetchData = async () => {setLoading(true);}}, [url]);"],
+        "description": ["Shortcut for a descriptive useeffect statement"]
+    
+        },
+  }

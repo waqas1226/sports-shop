@@ -1,0 +1,19 @@
+.catContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin: 6rem 2rem;
+
+}
+ .catItems{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+flex-wrap: wrap;
+}
+.catagoriesTitle{
+    align-self: flex-start;
+}
