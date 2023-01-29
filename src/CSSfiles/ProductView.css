@@ -1,0 +1,33 @@
+.cardImg{
+    width: 80%;
+    /* height: 50px; */
+    justify-content: center;
+}
+.prodDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.samplePictures{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sampleImg{
+    width: 5rem;
+    border-radius: 5px;
+}
+.stockShipping{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.stockShipping > span{
+    font-size: 1rem;
+    border: 1px solid grey;
+}
+
+.br{
+    border: 1px solid grey;
+}

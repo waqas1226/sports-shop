@@ -2,7 +2,10 @@ import '../CSSfiles/Carousel.css';
 
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import pic from '../bird.jpg';
+import bat from '../Images/bat.jpg';
+import football from '../Images/football.jpg';
+import basketball from '../Images/basketBall.jpg';
+import ball from '../Images/ball.jpg';
 function Slider(props) {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
@@ -10,13 +13,13 @@ function Slider(props) {
   };
 
   return (
-    <div>
+    <div className='carousel'>
 
     <Carousel fade variant="dark" activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img
-          className="w-50"
-          src={pic}
+          className="sliderImg"
+          src={bat}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -26,8 +29,8 @@ function Slider(props) {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="w-50"
-          src={pic}
+          className="sliderImg"
+          src={ball}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -37,8 +40,8 @@ function Slider(props) {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="w-50"
-          src={pic}
+          className="sliderImg"
+          src={football}
           alt="Second slide"
         />
 
@@ -49,8 +52,8 @@ function Slider(props) {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="w-50"
-          src={pic}
+          className="sliderImg"
+          src={basketball}
           alt="Third slide"
         />
 

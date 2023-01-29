@@ -1,50 +1,69 @@
 import React, { useState } from 'react';
-// import '../CSSfiles/Sidebar.scss';
-import { Sidebar, Menu, Icon } from 'semantic-ui-react';
+import '../CSSfiles/Sidebar.css';
+import { ArrowDropDown, ArrowRight, MenuOutlined } from '@mui/icons-material';
+import { catData } from './SidebarSource';
 
 const SideBar = () => {
   const [visible, setVisible] = useState(false);
-
+console.log(catData.cat)
   return (
-    <div>
-      <Menu fixed='top' inverted>
-        <Menu.Item onClick={() => setVisible(!visible)}>
-          <Icon name='bars' />
-        </Menu.Item>
-        <Menu.Item position='right'>Ecommerce Website</Menu.Item>
-      </Menu>
-
-      <Sidebar
-        as={Menu}
-        animation='overlay'
-        icon='labeled'
-        inverted
-        onHide={() => setVisible(false)}
-        vertical
-        visible={visible}
-        width='thin'
-      >
-        <Menu.Item as='a'>Home</Menu.Item>
-        <Menu.Item as='a'>Products</Menu.Item>
-        <Menu.Item as='a'>About</Menu.Item>
-        <Menu.Item as='a'>Contact Us</Menu.Item>
-        <Menu.Item as='a'>Shipping Information</Menu.Item>
-        <Menu.Item as='a'>Return Policy</Menu.Item>
-        <Menu.Item as='a'>Privacy Policy</Menu.Item>
-        <Menu.Item as='a'>Terms of Service</Menu.Item>
-        <Menu.Item as='a'>
-          <Icon name='dropdown' />
-          Categories
-          <Menu.Menu>
-            <Menu.Item as='a'>Category 1</Menu.Item>
-            <Menu.Item as='a'>Category 2</Menu.Item>
-            <Menu.Item as='a'>Category 3</Menu.Item>
-          </Menu.Menu>
-        </Menu.Item>
-      </Sidebar>
+    <>
+    <div className="catList bg-black border-y-8">
+<MenuOutlined onClick={()=>setVisible(!visible)} className='sidebar'/>
+   Departments <ArrowDropDown/>
     </div>
+      {/* <div className="List"> */}
+        {visible&&<ul className="parentUl">
+          {catData.map((cat)=>
+          <li className="cat">
+            <a href="#">
+              <span>{cat.name}</span> 
+              <ArrowRight/>
+            </a>
+            <ul className="subCatul">
+{cat.subcat.map((subca)=>
+              <li className="subCatli">
+                <a href="#">
+                  <span>{subca.name}</span>
+              <ArrowRight/>
+                  </a>
+                <ol className="1000">
+                  
+                  <li className="subCatli2"><a href="#"><span>Fruits</span></a></li>
+                  <li className="subCatli2"><a href="#"><span>Vegetables</span></a> </li>
+                </ol>
+
+              </li>
+)}
+            </ul>
+          </li>
+
+)}
+</ul>
+}
+      {/* </div> */}
+    </>
   );
 };
 
 
 export default SideBar;
+
+{/* <li className="cat">
+            <a href="#">
+              <span>Sports</span> 
+            </a>
+            <ul className="subCatul">
+              <li className="subCatli">
+                <a href="#">
+                  <span>Cricket njjjjjjjjj</span></a>
+                <ol className="ol">
+                  <li className="subCatli2"><a href="#"><span>Fts</span></a></li>
+                  <li className="subCatli2"><a href="#"><span>tables</span></a> </li>
+                  <li className="subCatli2"><a href="#"><span>oultry</span></a></li>
+                  <li className="subCatli2"><a href="#"><span>Seod</span></a></li>
+                </ol>
+
+              </li>
+            </ul>
+          </li> */}

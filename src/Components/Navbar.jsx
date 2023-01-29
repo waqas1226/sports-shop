@@ -2,6 +2,9 @@ import '../CSSfiles/Navbar.css';
 import React, { useState } from 'react';
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 import pic from '../bird.jpg';
+import { MenuOutlined, Search, ShoppingCartCheckout } from '@mui/icons-material';
+import SideBar from './Sidebar';
+import { Link } from 'react-router-dom';
 
 function NavBar(props) {
   const [index, setIndex] = useState(0);
@@ -10,26 +13,25 @@ function NavBar(props) {
   };
 
   return (
-    <div>
-       <Navbar bg="dark" variant="light">
-      <Navbar.Brand href="#home">Smart Cart</Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#products">Products</Nav.Link>
-        <Nav.Link href="#about">About</Nav.Link>
-      </Nav>
-      <Form inline className="ml-auto df">
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-success">Search</Button>
-      </Form>
-      <Nav>
-        <Nav.Link href="#login">Login</Nav.Link>
-        <Nav.Link href="#cart">Cart</Nav.Link>
-      </Nav>
-    </Navbar>
-
-
+    <nav>
+       <div className='navb df'>
+      <Link to="/" className='link fs2'>Smart Cart</Link>
+      <SideBar/>
+      <div className="home df gp">
+        <Link to="/1" className='link'>About</Link>
+      </div>
+      <form inline className="searchForm df">
+        <input type="text" placeholder="Search" />
+        <span><Search/></span>
+      </form>
+      <div className='logincart df gp'>
+        <Link to="/cart" className='link'><ShoppingCartCheckout/></Link>
+        <Link to="/login" className='link'>Login</Link>
+      </div>
     </div>
+
+
+    </nav>
   );
 }
 

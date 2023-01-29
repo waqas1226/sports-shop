@@ -4,6 +4,7 @@ import '../CSSfiles/Featured.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import pic from '../bird.jpg';
+import { HeartBroken, Shop, ShoppingBasketOutlined, ShoppingCart } from '@mui/icons-material';
 
 
 const FeaturedProds = [
@@ -46,9 +47,8 @@ const Featured = () => {
 
   return (
   <div className="FeaturedContainer">
-    <h1 className="Featuredtitle">Featured Products</h1>
     {FeaturedProds.map((Product, index) => (
-      <Card style={{ width: '18rem' }}>
+      <Card style={{ width: '30%' }}>
       <Card.Img variant="top" src={pic} />
       <Card.Body>
         <Card.Title>{Product.name}</Card.Title>
@@ -56,7 +56,8 @@ const Featured = () => {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary" className='btn'> <ShoppingCart/></Button>
+        <Button variant="primary" className='btn'><HeartBroken/></Button>
       </Card.Body>
     </Card>
     ))}

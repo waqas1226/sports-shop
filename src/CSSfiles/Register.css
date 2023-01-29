@@ -1,0 +1,11 @@
+/* .register form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 80%;
+} */
+label{
+    display: block;
+    text-align: left;
+}

@@ -1,0 +1,48 @@
+nav{
+    position: relative;
+    font-size: 1rem;
+    padding: 5px 10px;
+    background-color: rgb(146, 100, 83);
+}
+.navb{
+    gap: 1rem;
+   }
+.searchForm{
+    margin: 2px auto;
+    width: 30%;
+}
+@media (max-width:500px) {
+    .searchForm {
+      position: absolute;
+      left:auto;
+      right: auto;
+      top: 42px;
+width: 90%;
+    }
+    nav{
+    height: 80px;
+
+    }
+  }
+.searchForm>input{
+border-radius: 8px 0 0 8px;
+width: 100%;
+height: 25px;
+
+}
+.searchForm > span{
+padding: 0 5px;
+border: 1px solid grey;
+border-radius: 0 8px 8px 0;
+background-color: white;
+color: black;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+Link{
+    color: black;
+
+}

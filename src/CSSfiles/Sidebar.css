@@ -1,0 +1,75 @@
+.catList{
+    border: 1px Solid gray;
+    height: 30px;
+    padding: 0 5px;
+    background-color: rgb(151, 120, 109);
+    display: flex;
+    align-items: center;
+}
+.sidebar:hover{
+    background-color: rgb(83, 102, 100);
+    /* width: 300px; */
+
+}
+.List{
+    border: 1px solid black;
+    width: 400px;
+    /* position: absolute; */
+}
+.parentUl{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: absolute; 
+       width: 11rem;
+       height: 200px;
+       top: 36px;
+       left: 125px;
+    z-index: 2;
+    border: 2px solid rgb(107, 58, 58);   
+
+background-color: rgb(155, 124, 113);
+
+-webkit-box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+    box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+   
+}
+
+.subCatul{
+position: absolute;
+top: 0px;
+width: 10rem;
+height: 200px;
+left: 151px;
+list-style: none;
+border: 2px solid rgb(192, 102, 102);   
+ background-color: rgb(155, 124, 113);
+
+-webkit-box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+    box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+   
+visibility: hidden;
+}
+.cat:hover > ul{
+    visibility: visible;
+}
+.subCatli > ol{
+    position: absolute;
+    top: 0;
+    left: 137px;
+    width: 10rem;
+height: 200px;
+    list-style: none;
+border: 2px solid rgb(133, 70, 70);   
+
+    background-color: rgb(155, 124, 113);
+    -webkit-box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+        box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
+       
+visibility: hidden;
+
+    }
+    .subCatli:hover > ol{
+        visibility: visible;
+    }

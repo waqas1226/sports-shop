@@ -4,40 +4,34 @@ import '../CSSfiles/Categories.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import pic from '../bird.jpg';
+import badminton from '../Images/badminton.jpg';
+import bat from '../Images/bat.jpg';
+import Sportswares from '../Images/Sportswares.jpg';
+import football from '../Images/football.jpg';
+import basketball1 from '../Images/basketball1.jpg';
+import OIP from '../Images/OIP.jpg';
 
 
 const Categories = [
   {
-    name: 'Category 1',
-    image:pic,
+    name: 'Badminton',
+    image:badminton,
   },
   {
-    name: 'Category 2',
-    image:pic,
+    name: 'Cricket',
+    image:bat,
   },
   {
-    name: 'Category 3',
-    image:pic,
+    name: 'Football',
+    image:football,
   },
   {
-    name: 'Category 4',
-    image:pic,
+    name: 'Basket Ball',
+    image:basketball1,
   },
   {
-    name: 'Category 5',
-    image:pic,
-  },
-  {
-    name: 'Category 6',
-    image:pic,
-  },
-  {
-    name: 'Category 7',
-    image:pic,
-  },
-  {
-    name: 'Category 8',
-    image:pic,
+    name: 'Sportswares',
+    image:Sportswares,
   }
 ];
 
@@ -46,16 +40,19 @@ const CategoryList = () => (
     <h1 className="catagoriesTitle">Catagories</h1>
     <div className='catItems'>
     {Categories.map((category, index) => (
-      <Card style={{ width: '8rem' }}>
-      <Card.Img variant="top" src={pic} />
+      <Card style={{ width: '20%',height:'30px', margin: '1rem 1%'}}>
+      <Card.Img variant="top" src={category.image} />
       <Card.Body>
         <Card.Title>{category.name}</Card.Title>
-        <Card.Text>
-          Some quick example text 
-        </Card.Text>
       </Card.Body>
     </Card>
     ))}
+    <Card style={{ width: '20%', margin: '1rem 1%'}}>
+      <Card.Img variant="top" src={OIP} />
+      <Card.Body>
+        <Card.Title>All Catagories</Card.Title>
+      </Card.Body>
+    </Card>
     </div>
     </div>
 );

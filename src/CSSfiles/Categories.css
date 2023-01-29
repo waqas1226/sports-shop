@@ -1,4 +1,5 @@
 .catContainer{
+    font-size: 0.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,11 +9,18 @@
 
 }
  .catItems{
-display: flex;
-align-items: center;
-justify-content: center;
-gap: 2rem;
-flex-wrap: wrap;
+    /* display: grid;
+    grid-template-columns: 25% 25% 25% 25%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* grid-auto-columns: 25%; */
+
+    /* grid-column-gap: ; */
+    background-color: #b2c6d6;
+    width: 100%;
+    /* padding: 1rem; */
 }
 .catagoriesTitle{
     align-self: flex-start;

@@ -10,9 +10,9 @@ import SideBar from './Sidebar';
 
 function Home(props) {
   return (
-    <div>
-      <SideBar/>
+    <div className='home'>
       <Navbar/>
+      {/* <SideBar/> */}
       <Carousel/>
       <CategoryList/>
       <Featured/>
