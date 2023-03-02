@@ -1,75 +1,36 @@
-export const catData=[
+export const categoriesData=[
       {
-        "name": "Team Sports",
+        "name": "Cricket",
         "subcat": [
           {
-            "name": "Soccer"
+            "name": "Bats"
           },
           {
-            "name": "Basketball"
+            "name": "Balls"
           },
-          {
-            "name": "American Football"
-          }
         ]
       },
 
-      
       {
-        "name": "Fitness",
-        "subcat": [
-          {
-            "name": "Strength Training"
-          },
-          {
-            "name": "Cardio"
-          },
-          {
-            "name": "Yoga"
-          }
-        ]
+        "name": "Football",
+      },
+
+
+      {
+        "name": "Badminton",
+      },
+
+      {
+        "name": "Basketball",
+       
       },
       {
-        "name": "Outdoor Activities",
-        "subcat": [
-          {
-            "name": "Hiking"
-          },
-          {
-            "name": "Camping"
-          },
-          {
-            "name": "Fishing"
-          }
-        ]
+        "name": "Hockey",
+        
       },
       {
-        "name": "Water Sports",
-        "subcat": [
-          {
-            "name": "Swimming"
-          },
-          {
-            "name": "Surfing"
-          },
-          {
-            "name": "Kayaking"
-          }
-        ]
-      },
-      {
-        "name": "Winter Sports",
-        "subcat": [
-          {
-            "name": "Skiing"
-          },
-          {
-            "name": "Snowboarding"
-          },
-          {
-            "name": "Ice Skating"
-          }
-        ]
+        "name": "Sportswear",
+        
       }
     ]
   

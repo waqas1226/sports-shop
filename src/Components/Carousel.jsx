@@ -3,9 +3,29 @@ import '../CSSfiles/Carousel.css';
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import bat from '../Images/bat.jpg';
-import football from '../Images/football.jpg';
-import basketball from '../Images/basketBall.jpg';
-import ball from '../Images/ball.jpg';
+import Shuttle from '../Images/Shuttle1.jpg';
+import basketball from '../Images/BasketBall1.jpg';
+import ball2 from '../Images/ball2.jpg';
+
+const carouselitems=[
+{
+  title:"Best Bat",
+  img:bat 
+},
+{
+  title:"Best Ball",
+  img:ball2 
+},
+{
+  title:"Best Shuttle",
+  img:Shuttle 
+},
+{
+  title:"Best Basket Ball",
+  img:basketball 
+}
+
+]
 function Slider(props) {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
@@ -14,56 +34,20 @@ function Slider(props) {
 
   return (
     <div className='carousel'>
-
     <Carousel fade variant="dark" activeIndex={index} onSelect={handleSelect}>
+{carouselitems.map((item)=>
       <Carousel.Item>
         <img
           className="sliderImg"
-          src={bat}
+          src={item.img}
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p> interdum.</p>
+          <h2  className="">{item.title}</h2>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="sliderImg"
-          src={ball}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p> interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="sliderImg"
-          src={football}
-          alt="Second slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="sliderImg"
-          src={basketball}
-          alt="Third slide"
-        />
-
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
+)}
+     
     </Carousel>
 
 

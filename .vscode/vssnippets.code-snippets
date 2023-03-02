@@ -22,4 +22,20 @@
         "description": ["Shortcut for a descriptive useeffect statement"]
     
         },
+        // "Print to console": {
+        //     "prefix": ["log"],
+        //     "body": [
+        //         "console.log('$1');",
+        //         "$2"
+        //     ],
+        //     "description": "Log output to console"
+        // },
+        
+            "Console Log": {
+              "prefix": ["log"],
+              "body": "console.${2|log,dir,error|}(${TM_SELECTED_TEXT:'${1:Here}'})",
+              "scope": "javascript,typescript",
+              "description": "Log output to the console"
+            }
+          
   }

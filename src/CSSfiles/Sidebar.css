@@ -6,9 +6,8 @@
     display: flex;
     align-items: center;
 }
-.sidebar:hover{
-    background-color: rgb(83, 102, 100);
-    /* width: 300px; */
+.catList:hover{
+    background-color: rgb(155, 124, 113);
 
 }
 .List{
@@ -24,10 +23,11 @@
     position: absolute; 
        width: 11rem;
        height: 200px;
-       top: 36px;
-       left: 125px;
+       top: 31px;
+       /* padding: 10px; */
+       left: 0;
     z-index: 2;
-    border: 2px solid rgb(107, 58, 58);   
+    /* border: 2px solid rgb(107, 58, 58);    */
 
 background-color: rgb(155, 124, 113);
 
@@ -39,11 +39,11 @@ background-color: rgb(155, 124, 113);
 .subCatul{
 position: absolute;
 top: 0px;
-width: 10rem;
+width: 12rem;
 height: 200px;
-left: 151px;
+left: 176px;
 list-style: none;
-border: 2px solid rgb(192, 102, 102);   
+/* border: 2px solid rgb(192, 102, 102);    */
  background-color: rgb(155, 124, 113);
 
 -webkit-box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
@@ -57,11 +57,12 @@ visibility: hidden;
 .subCatli > ol{
     position: absolute;
     top: 0;
-    left: 137px;
+    left: 192px;
     width: 10rem;
 height: 200px;
+padding: 0px;
     list-style: none;
-border: 2px solid rgb(133, 70, 70);   
+/* border: 2px solid rgb(133, 70, 70);    */
 
     background-color: rgb(155, 124, 113);
     -webkit-box-shadow: 7px 5px 11px -2px rgba(0,0,0,0.27);
@@ -73,3 +74,18 @@ visibility: hidden;
     .subCatli:hover > ol{
         visibility: visible;
     }
+
+.accordion-button:not(.collapsed) {
+background-color: slategray;
+color: black;
+box-shadow: none;
+    }
+    
+.accordion-button:not(.collapsed)::after {
+    background-color:slategray;
+    color: black;
+    box-shadow: none;
+    background-image: var(--bs-accordion-btn-icon);
+}
+
+    

@@ -1,391 +1,524 @@
-// {
-//     "categories": [
-//       {
-//         "name": "Cricket",
-//         "subcategories": [
-//           {
-//             "name": "Bats",
-//             "items": [
-//               {
-//                 "id": 1,
-//                 "name": "Adidas Adipower 4Bat",
-//                 "price": 140,
-//                 "featured": true,
-//                 "country_of_origin": "India",
-//                 "quantity": 5,
-//                 "brand": "Adidas",
-//                 "color": "Red",
-//                 "size": "L",
-//                 "weight": 2.5
-//               },
-//               {
-//                 "id": 2,
-//                 "name": "MRF Genius Grand Edition Bat",
-//                 "price": 200,
-//                 "featured": false,
-//                 "country_of_origin": "India",
-//                 "quantity": 10,
-//                 "brand": "MRF",
-//                 "color": "Black",
-//                 "size": "M",
-//                 "weight": 2.3
-//               },
-//               {
-//                 "id": 3,
-//                 "name": "SG Test Bat",
-//                 "price": 90,
-//                 "featured": false,
-//                 "country_of_origin": "India",
-//                 "quantity": 15,
-//                 "brand": "SG",
-//                 "color": "Blue",
-//                 "size": "S",
-//                 "weight": 2.1
-//               },
-//               {
-//                 "id": 4,
-//                 "name": "Kookaburra Kahuna Bat",
-//                 "price": 150,
-//                 "featured": true,
-//                 "country_of_origin": "Australia",
-//                 "quantity": 5,
-//                 "brand": "Kookaburra",
-//                 "color": "Green",
-//                 "size": "L",
-//                 "weight": 2.7
-//               },
-//               {
-//                 "id": 5,
-//                 "name": "GM Icon Bat",
-//                 "price": 120,
-//                 "featured": false,
-//                 "country_of_origin": "Pakistan",
-//                 "quantity": 10,
-//                 "brand": "GM",
-//                 "color": "Yellow",
-//                 "size": "M",
-//                 "weight": 2.5
-//               }
-//             ]
-//           },
-//           {
-//             "name": "Balls",
-//             "items": [
-//               {
-//                 "id": 1,
-//                 "name": "Adidas Duro Ball",
-//                 "price": 20,
-//                 "featured": false,
-//                 "country_of_origin": "India",
-//                 "quantity": 100,
-//                 "brand": "Adidas",
-//                 "color": "Red",
-//                 "size": "",
-//                 "weight": 160
-//               },
-//               {
-//                 "id": 2,
-//                 "name": "SG Test Ball",
-//                 "price": 25,
-//                 "featured": false,
-//                 "country_of_origin": "India",
-//                 "quantity": 200,
-//                 "brand": "SG",
-//                 "color": "White",
-//                 "size": "",
-//                 "weight": 155
-//               },
-//               {
-//                 "id": 3,
-//                 "name": "Kookaburra Pro 500 Ball
-  
+import pic from "../Images/bat.jpg";
+
+export const bats=[
+              {
+                "id":111,
+                "name": "Adidas Adipower 4Bat",
+                "price": 140,
+                "featured": true,
+                "country_of_origin": "India",
+                "quantity": 5,
+                "brand": "Adidas",
+                "color": "Red",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
+                "qty":0,
+                "size": "L",
+                "weight": 2.5
+              },
+              {
+                "id":112,
+                "name": "MRF Genius Grand Edition Bat",
+                "price": 200,
+                "featured": false,
+                "country_of_origin": "India",
+                "quantity": 10,
+                "brand": "MRF",
+                "color": "Black",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
+                
+                "qty":0,
+                "size": "M",
+                "weight": 2.3
+              },
+              {
+                "id":113,
+                "name": "SG Test Bat",
+                "price": 90,
+                "featured": false,
+                "country_of_origin": "India",
+                "quantity": 15,
+                "brand": "SG",
+                "color": "Blue",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
+                
+                "qty":0,
+                "size": "S",
+                "weight": 2.1
+              },
+              {
+                "id":114,
+                "name": "Kookaburra Kahuna Bat",
+                "price": 150,
+                "featured": true,
+                "country_of_origin": "Australia",
+                "quantity": 5,
+                "brand": "Kookaburra",
+                "color": "Green",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
+
+                "qty":0,
+                "size": "L",
+                "weight": 2.7
+              },
+              {
+                "id":115,
+                "name": "GM Icon Bat",
+                "price": 120,
+                "featured": false,
+                "country_of_origin": "Pakistan",
+                "quantity": 10,
+                "brand": "GM",
+                "color": "Yellow",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
+
+                "qty":0,
+                "size": "M",
+                "weight": 2.5
+              },
+              {
+                "id":1153,
+                "name": "GM Icon Bat",
+                "price": 120,
+                "featured": false,
+                "country_of_origin": "Pakistan",
+                "quantity": 10,
+                "brand": "GM",
+                "color": "Yellow",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
+
+                "qty":0,
+                "size": "M",
+                "weight": 2.5
+              },
+              {
+                "id":1163,
+                "name": "GM Icon Bat",
+                "price": 120,
+                "featured": false,
+                "country_of_origin": "Pakistan",
+                "quantity": 10,
+                "brand": "GM",
+                "color": "Yellow",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
+
+                "qty":0,
+                "size": "M",
+                "weight": 2.5
+              },
+              {
+                "id":1125,
+                "name": "GM Icon Bat",
+                "price": 120,
+                "featured": false,
+                "country_of_origin": "Pakistan",
+                "quantity": 10,
+                "brand": "GM",
+                "color": "Yellow",
+                "qty":0,
+                "size": "M",
+                "weight": 2.5
+              }
+            ]
+
+
+         export const Balls=[
+              {
+                "id":1121,
+                "name": "Adidas Duro Ball",
+                "price": 20,
+                "featured": false,
+                "country_of_origin": "India",
+                "quantity": 100,
+                "brand": "Adidas",
+                "color": "Red",
+                "qty":0,
+                "size": "",
+                "weight": 160
+              },
+              {
+                "id":1122,
+                "name": "SG Test Ball",
+                "price": 25,
+                "featured": false,
+                "country_of_origin": "India",
+                "quantity": 200,
+                "brand": "SG",
+                "color": "White",
+                "qty":0,
+                "size": "",
+                "weight": 155
+              },
+              
+                      {
+                        "id":1123,
+                        "name": "Puma One 5.1",
+                        "category": "Boots",
+                        "price": 150,
+                        "featured": false,
+                        "country_of_origin": "Indonesia",
+                        "quantity": 18,
+                        "brand": "Puma",
+                        "color": "Green",
+                        "qty":0,
+                        "size": "8",
+                        "weight": 0.7
+                      },
+                      {
+                        "id":1124,
+                        "name": "Nike Premier Team",
+                        "category": "Balls",
+                        "price": 40,
+                        "featured": true,
+                        "country_of_origin": "Thailand",
+                        "quantity": 25,
+                        "brand": "Nike",
+                        "color": "White",
+                        "qty":0,
+                        "size": "5",
+                        "weight": 0.4
+                      },
+                      {
+                        "id":1125,
+                        "name": "Adidas Tango",
+                        "category": "Balls",
+                        "price": 30,
+                        "featured": false,
+                        "country_of_origin": "India",
+                        "quantity": 30,
+                        "brand": "Adidas",
+                        "color": "Red",
+                        "qty":0,
+                        "size": "5",
+                        "weight": 0.45
+                      }
+                    ]
+         export const BasketBall=[
+              {
+                "id":1131,
+                "cat":"BasketBall",
+                "name": "Adidas Duro Ball",
+                "price": 20,
+                "featured": false,
+                "country_of_origin": "India",
+                "quantity": 100,
+                "brand": "Adidas",
+                "color": "Red",
+                "qty":0,
+                "size": "",
+                "weight": 160
+              },
+              {
+                "id":1132,
+                "cat":"BasketBall",
+                "name": "SG Test Ball",
+                "price": 25,
+                "featured": false,
+                "country_of_origin": "India",
+                "quantity": 200,
+                "brand": "SG",
+                "color": "White",
+                "qty":0,
+                "size": "",
+                "weight": 155
+              },
+              
+                      {
+                        "id":1133,
+                "cat":"BasketBall",
+
+                        "name": "Puma One 5.1",
+                        "category": "Boots",
+                        "price": 150,
+                        "featured": false,
+                        "country_of_origin": "Indonesia",
+                        "quantity": 18,
+                        "brand": "Puma",
+                        "color": "Green",
+                        "qty":0,
+                        "size": "8",
+                        "weight": 0.7
+                      },
+                      {
+                        "id":1134,
+                        "name": "Nike Premier Team",
+                        "category": "Balls",
+                        "price": 40,
+                        "featured": true,
+                        "country_of_origin": "Thailand",
+                        "quantity": 25,
+                        "brand": "Nike",
+                        "color": "White",
+                        "qty":0,
+                        "size": "5",
+                        "weight": 0.4
+                      },
+                      {
+                        "id":1135,
+                        "name": "Adidas Tango",
+                        "category": "Balls",
+                        "price": 30,
+                        "featured": false,
+                        "country_of_origin": "India",
+                        "quantity": 30,
+                        "brand": "Adidas",
+                        "color": "Red",
+                        "qty":0,
+                        "size": "5",
+                        "weight": 0.45
+                      }
+                    ]
+         export const Football=[
+              {
+                "id":1141,
+                "name": "Adidas Duro Ball",
+                "price": 20,
+                "featured": false,
+                "country_of_origin": "India",
+                "quantity": 100,
+                "brand": "Adidas",
+                "color": "Red",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
+                "qty":0,
+                "size": "",
+                "weight": 160
+              },
+              {
+                "id":1142,
+                "name": "SG Test Ball",
+                "price": 25,
+                "featured": false,
+                "country_of_origin": "India",
+                "quantity": 200,
+                "brand": "SG",
+                "color": "White",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
+                "qty":0,
+                "size": "",
+                "weight": 155
+              },
+              
+                      {
+                        "id":1143,
+                        "name": "Puma One 5.1",
+                        "category": "Boots",
+                        "price": 150,
+                        "featured": false,
+                        "country_of_origin": "Indonesia",
+                        "quantity": 18,
+                        "brand": "Puma",
+                        "color": "Green",
+                        "qty":0,
+                        "size": "8",
+                        "weight": 0.7
+                      },
+                      {
+                        "id":1144,
+                        "name": "Nike Premier Team",
+                        "category": "Balls",
+                        "price": 40,
+                        "featured": true,
+                        "country_of_origin": "Thailand",
+                        "quantity": 25,
+                        "brand": "Nike",
+                        "color": "White",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
+
+                        "qty":0,
+                        "size": "5",
+                        "weight": 0.4
+                      },
+                      {
+                        "id":1145,
+                        "name": "Adidas Tango",
+                        "category": "Balls",
+                        "price": 30,
+                        "featured": false,
+                        "country_of_origin": "India",
+                        "quantity": 30,
+                        "brand": "Adidas",
+                        "color": "Red",
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
+
+                        "qty":0,
+                        "size": "5",
+                        "weight": 0.45
+                      }
+                    ]
 
 
 
 
-//                 {
-//                     "items": [
-//                       {
-//                         "id": 1,
-//                         "name": "Nike Mercurial Superfly 7",
-//                         "category": "Boots",
-//                         "price": 220,
-//                         "featured": true,
-//                         "country_of_origin": "Vietnam",
-//                         "quantity": 15,
-//                         "brand": "Nike",
-//                         "color": "Red",
-//                         "size": "9",
-//                         "weight": 0.5
-//                       },
-//                       {
-//                         "id": 2,
-//                         "name": "Adidas Copa 21+",
-//                         "category": "Boots",
-//                         "price": 190,
-//                         "featured": false,
-//                         "country_of_origin": "China",
-//                         "quantity": 20,
-//                         "brand": "Adidas",
-//                         "color": "Black",
-//                         "size": "10",
-//                         "weight": 0.6
-//                       },
-//                       {
-//                         "id": 3,
-//                         "name": "Puma One 5.1",
-//                         "category": "Boots",
-//                         "price": 150,
-//                         "featured": false,
-//                         "country_of_origin": "Indonesia",
-//                         "quantity": 18,
-//                         "brand": "Puma",
-//                         "color": "Green",
-//                         "size": "8",
-//                         "weight": 0.7
-//                       },
-//                       {
-//                         "id": 4,
-//                         "name": "Nike Premier Team",
-//                         "category": "Balls",
-//                         "price": 40,
-//                         "featured": true,
-//                         "country_of_origin": "Thailand",
-//                         "quantity": 25,
-//                         "brand": "Nike",
-//                         "color": "White",
-//                         "size": "5",
-//                         "weight": 0.4
-//                       },
-//                       {
-//                         "id": 5,
-//                         "name": "Adidas Tango",
-//                         "category": "Balls",
-//                         "price": 30,
-//                         "featured": false,
-//                         "country_of_origin": "India",
-//                         "quantity": 30,
-//                         "brand": "Adidas",
-//                         "color": "Red",
-//                         "size": "5",
-//                         "weight": 0.45
-//                       },
-//                       {
-//                         "id": 6,
-//                         "name": "Mitre Impel",
-//                         "category": "Balls",
-//                         "price": 25,
-//                         "featured": false,
-//                         "country_of_origin": "Pakistan",
-//                         "quantity": 35,
-//                         "brand": "Mitre",
-//                         "color": "Yellow",
-//                         "size": "5",
-//                         "weight": 0.5
-//                       },
-//                       {
-//                         "id": 7,
-//                         "name": "Nike Park IV",
-//                         "category": "Goalkeeper Gloves",
-//                         "price": 60,
-//                         "featured": true,
-//                         "country_of_origin": "Vietnam",
-//                         "quantity": 10,
-//                         "brand": "Nike",
-//                         "color": "Black",
-//                         "size": "9",
-//                         "weight": 0.3
-//                       }
-                  
-
-
-
-
-//                       badminton={
-//                         "items": [
-//                           {
-//                             "id": 1,
-//                             "name": "Yonex Voltric Z Force II",
-//                             "category": "Rackets",
-//                             "price": 220,
-//                             "featured": true,
-//                             "country_of_origin": "Japan",
-//                             "quantity": 15,
-//                             "brand": "Yonex",
-//                             "color": "Black",
-//                             "size": "L",
-//                             "weight": 4.0
-//                           },
-//                           {
-//                             "id": 2,
-//                             "name": "Li-Ning Wayne Chen",
-//                             "category": "Rackets",
-//                             "price": 180,
-//                             "featured": false,
-//                             "country_of_origin": "China",
-//                             "quantity": 20,
-//                             "brand": "Li-Ning",
-//                             "color": "Red",
-//                             "size": "M",
-//                             "weight": 3.5
-//                           },
-//                           {
-//                             "id": 3,
-//                             "name": "Victor Thruster K",
-//                             "category": "Rackets",
-//                             "price": 160,
-//                             "featured": false,
-//                             "country_of_origin": "Taiwan",
-//                             "quantity": 18,
-//                             "brand": "Victor",
-//                             "color": "Green",
-//                             "size": "S",
-//                             "weight": 3.0
-//                           },
-//                           {
-//                             "id": 4,
-//                             "name": "Yonex Aerosensa 30",
-//                             "category": "Shuttlecocks",
-//                             "price": 20,
-//                             "featured": true,
-//                             "country_of_origin": "Japan",
-//                             "quantity": 25,
-//                             "brand": "Yonex",
-//                             "color": "White",
-//                             "size": "N/A",
-//                             "weight": 0.5
-//                           },
-//                           {
-//                             "id": 5,
-//                             "name": "Fleet Feather 40",
-//                             "category": "Shuttlecocks",
-//                             "price": 15,
-//                             "featured": false,
-//                             "country_of_origin": "Malaysia",
-//                             "quantity": 30,
-//                             "brand": "Fleet",
-//                             "color": "Yellow",
-//                             "size": "N/A",
-//                             "weight": 0.5
-//                           },
-//                           {
-//                             "id": 6,
-//                             "name": "Forza 3 Star 40",
-//                             "category": "Shuttlecocks",
-//                             "price": 10,
-//                             "featured": false,
-//                             "country_of_origin": "Indonesia",
-//                             "quantity": 35,
-//                             "brand": "Forza",
-//                             "color": "White",
-//                             "size": "N/A",
-//                             "weight": 0.5
-//                           },
-//                           {
-//                             "id": 7,
-//                             "name": "Yonex Mavis 300",
-//                             "category": "Nets",
-//                             "price": 50,
-//                             "featured": true,
-//                             "country_of_origin": "Japan",
-//                             "quantity": 10,
-//                             "brand": "Yonex",
-//                             "color": "White",
-//                             "size": "Standard",
-//                           }
+                  export const badminton=[
+                          {
+                            "id":1151,
+                            "name": "Yonex Voltric Z Force II",
+                            "category": "Rackets",
+                            "price": 220,
+                            "featured": true,
+                            "country_of_origin": "Japan",
+                            "quantity": 15,
+                            "brand": "Yonex",
+                            "color": "Black",
+                            "qty":0,
+                            "size": "L",
+                            "weight": 4.0
+                          },
+                          {
+                            "id":1152,
+                            "name": "Li-Ning Wayne Chen",
+                            "category": "Rackets",
+                            "price": 180,
+                            "featured": false,
+                            "country_of_origin": "China",
+                            "quantity": 20,
+                            "brand": "Li-Ning",
+                            "color": "Red",
+                            "qty":0,
+                            "size": "M",
+                            "weight": 3.5
+                          },
+                          {
+                            "id":1153,
+                            "name": "Victor Thruster K",
+                            "category": "Rackets",
+                            "price": 160,
+                            "featured": false,
+                            "country_of_origin": "Taiwan",
+                            "quantity": 18,
+                            "brand": "Victor",
+                            "color": "Green",
+                            "qty":0,
+                            "size": "S",
+                            "weight": 3.0
+                          },
+                          {
+                            "id":1154,
+                            "name": "Yonex Aerosensa 30",
+                            "category": "Shuttlecocks",
+                            "price": 20,
+                            "featured": true,
+                            "country_of_origin": "Japan",
+                            "quantity": 25,
+                            "brand": "Yonex",
+                            "color": "White",
+                            "qty":0,
+                            "size": "N/A",
+                            "weight": 0.5
+                          },
+                          {
+                            "id":1155,
+                            "name": "Fleet Feather 40",
+                            "category": "Shuttlecocks",
+                            "price": 15,
+                            "featured": false,
+                            "country_of_origin": "Malaysia",
+                            "quantity": 30,
+                            "brand": "Fleet",
+                            "color": "Yellow",
+                            "qty":0,
+                            "size": "N/A",
+                            "weight": 0.5
+                          }                         
+                        ]
                           
-                          
-//                           hockey={
-//                             "items": [
-//                               {
-//                                 "id": 1,
-//                                 "name": "CCM Ribcor Reckoner",
-//                                 "category": "Sticks",
-//                                 "price": 200,
-//                                 "featured": true,
-//                                 "country_of_origin": "Canada",
-//                                 "quantity": 15,
-//                                 "brand": "CCM",
-//                                 "color": "Black",
-//                                 "size": "L",
-//                                 "weight": 550g
-//                               },
-//                               {
-//                                 "id": 2,
-//                                 "name": "Bauer Nexus 2N Pro",
-//                                 "category": "Sticks",
-//                                 "price": 180,
-//                                 "featured": false,
-//                                 "country_of_origin": "Canada",
-//                                 "quantity": 20,
-//                                 "brand": "Bauer",
-//                                 "color": "White",
-//                                 "size": "M",
-//                                 "weight": 530g
-//                               },
-//                               {
-//                                 "id": 3,
-//                                 "name": "Sher-Wood Rekker M90",
-//                                 "category": "Sticks",
-//                                 "price": 160,
-//                                 "featured": false,
-//                                 "country_of_origin": "Canada",
-//                                 "quantity": 18,
-//                                 "brand": "Sher-Wood",
-//                                 "color": "Black",
-//                                 "size": "S",
-//                                 "weight": 520g
-//                               },
-//                               {
-//                                 "id": 4,
-//                                 "name": "CCM Tacks 9060",
-//                                 "category": "Skates",
-//                                 "price": 300,
-//                                 "featured": true,
-//                                 "country_of_origin": "Canada",
-//                                 "quantity": 15,
-//                                 "brand": "CCM",
-//                                 "color": "Black",
-//                                 "size": "9",
-//                                 "weight": 1.3kg
-//                               },
-//                               {
-//                                 "id": 5,
-//                                 "name": "Bauer Vapor X2.9",
-//                                 "category": "Skates",
-//                                 "price": 280,
-//                                 "featured": false,
-//                                 "country_of_origin": "Canada",
-//                                 "quantity": 20,
-//                                 "brand": "Bauer",
-//                                 "color": "White",
-//                                 "size": "10",
-//                                 "weight": 1.25kg
-//                               },
-//                               {
-//                                 "id": 6,
-//                                 "name": "Reebok Ribcor Reckoner",
-//                                 "category": "Skates",
-//                                 "price": 260,
-//                                 "featured": false,
-//                                 "country_of_origin": "Canada",
-//                                 "quantity": 18,
-//                                 "brand": "Reebok",
-//                                 "color": "Black",
-//                                 "size": "11",
-//                                 "weight": 1.2kg
-//                               },
-//                               {
-//                                 "id": 7,
-//                                 "name": "CCM Pro Goalie",
-//                                 "category": "Pads",
-//                                 "price": 500,
-//                                 "featured": true,
-//                                 "country_of_origin": "Canada",
-//                                 "quantity": 10,
-//                                 "brand": "CCM",
-//                                 "color": "White",
-//                                 "size": "34 inch",
-//                                 "weight": 3.0kg
-//                               }
+                        export const hockey=[
+                              {
+                                "id":1161,
+                                "name": "CCM Ribcor Reckoner",
+                                "category": "Sticks",
+                                "price": 200,
+                                "featured": true,
+                                "country_of_origin": "Canada",
+                                "quantity": 15,
+                                "brand": "CCM",
+                                "color": "Black",
+                                "qty":0,
+                                "size": "L",
+                                "weight": 550
+                              },
+                              {
+                                "id":1162,
+                                "name": "Bauer Nexus 2N Pro",
+                                "category": "Sticks",
+                                "price": 180,
+                                "featured": false,
+                                "country_of_origin": "Canada",
+                                "quantity": 20,
+                                "brand": "Bauer",
+                                "color": "White",
+                                "qty":0,
+                                "size": "M",
+                                "weight": 530
+                              },
+                              {
+                                "id":1163,
+                                "name": "Sher-Wood Rekker M90",
+                                "category": "Sticks",
+                                "price": 160,
+                                "featured": false,
+                                "country_of_origin": "Canada",
+                                "quantity": 18,
+                                "brand": "Sher-Wood",
+                                "color": "Black",
+                                "qty":0,
+                                "size": "S",
+                                "weight": 520
+                              },
+                              {
+                                "id":1164,
+                                "name": "CCM Tacks 9060",
+                                "category": "Skates",
+                                "price": 300,
+                                "featured": true,
+                                "country_of_origin": "Canada",
+                                "quantity": 15,
+                                "brand": "CCM",
+                                "color": "Black",
+                                "qty":0,
+                                "size": "9",
+                                "weight": 1.3
+                              },
+                              {
+                                "id":1165,
+                                "name": "Bauer Vapor X2.9",
+                                "category": "Skates",
+                                "price": 280,
+                                "featured": false,
+                                "country_of_origin": "Canada",
+                                "quantity": 20,
+                                "brand": "Bauer",
+                                "color": "White",
+                                "qty":0,
+                                "size": "10",
+                                "weight": 1.25
+                              },
+                              {
+                                "id":1166,
+                                "name": "Reebok Ribcor Reckoner",
+                                "category": "Skates",
+                                "price": 260,
+                                "featured": false,
+                                "country_of_origin": "Canada",
+                                "quantity": 18,
+                                "brand": "Reebok",
+                                "color": "Black",
+                                "qty":0,
+                                "size": "11",
+                                "weight": 1.2
+                              },
+                              {
+                                "id":1167,
+                                "name": "CCM Pro Goalie",
+                                "category": "Pads",
+                                "price": 500,
+                                "featured": true,
+                                "country_of_origin": "Canada",
+                                "quantity": 10,
+                                "brand": "CCM",
+                                "color": "White",
+                                "qty":0,
+                                "size": "34 inch",
+                                "weight": 3.0
+                              }
+                            ]
                           

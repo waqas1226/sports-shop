@@ -4,12 +4,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { CartContextProvider } from './Components/CartContext';
 <link href="/dist/output.css" rel="stylesheet"></link>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <CartContextProvider>
     <App />
+    </CartContextProvider>
   </React.StrictMode>
 );
 

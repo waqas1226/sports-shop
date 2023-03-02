@@ -1,36 +1,36 @@
 import React, { useState } from 'react';
 import '../CSSfiles/Sidebar.css';
 import { ArrowDropDown, ArrowRight, MenuOutlined } from '@mui/icons-material';
-import { catData } from './SidebarSource';
+import { categoriesData } from './SidebarSource';
+import { Link } from 'react-router-dom';
 
 const SideBar = () => {
   const [visible, setVisible] = useState(false);
-console.log(catData.cat)
   return (
-    <>
-    <div className="catList bg-black border-y-8">
-<MenuOutlined onClick={()=>setVisible(!visible)} className='sidebar'/>
+    <div className='relative hidden sm:block'>
+    <div className="catList cursor-pointer" onClick={()=>setVisible(!visible)}>
+<MenuOutlined  className='sidebar'/>
    Departments <ArrowDropDown/>
     </div>
       {/* <div className="List"> */}
-        {visible&&<ul className="parentUl">
-          {catData.map((cat)=>
-          <li className="cat">
-            <a href="#">
-              <span>{cat.name}</span> 
-              <ArrowRight/>
+        {visible&&<ul className="parentUl py-3">
+          {categoriesData.map((cat)=>
+          <li className="cat w-full px-3">
+            <a href="#" className='w-full flex justify-between'>
+              <Link to={`/categories/${cat.name}`}>{cat.name}</Link> 
+             {cat.subcat && <ArrowRight/>}
             </a>
-            <ul className="subCatul">
-{cat.subcat.map((subca)=>
-              <li className="subCatli">
-                <a href="#">
-                  <span>{subca.name}</span>
+            <ul className="subCatul w-full py-3">
+{cat.subcat?.map((subca)=>
+              <li className="subCatli px-3">
+                <a href="#" className='w-full flex justify-between'>
+                  <Link to={`/${subca.name}`}>{subca.name}</Link>
               <ArrowRight/>
                   </a>
-                <ol className="1000">
+                <ol className="1000 p-3">
                   
-                  <li className="subCatli2"><a href="#"><span>Fruits</span></a></li>
-                  <li className="subCatli2"><a href="#"><span>Vegetables</span></a> </li>
+                  <li className="subCatli2"><a href="#"><Link to="/">ABC</Link></a></li>
+                  <li className="subCatli2"><a href="#"><Link to="/">XYZ</Link></a> </li>
                 </ol>
 
               </li>
@@ -42,7 +42,7 @@ console.log(catData.cat)
 </ul>
 }
       {/* </div> */}
-    </>
+    </div>
   );
 };
 
@@ -51,17 +51,17 @@ export default SideBar;
 
 {/* <li className="cat">
             <a href="#">
-              <span>Sports</span> 
+              <Link>Sports</Link> 
             </a>
             <ul className="subCatul">
               <li className="subCatli">
                 <a href="#">
-                  <span>Cricket njjjjjjjjj</span></a>
+                  <Link>Cricket njjjjjjjjj</Link></a>
                 <ol className="ol">
-                  <li className="subCatli2"><a href="#"><span>Fts</span></a></li>
-                  <li className="subCatli2"><a href="#"><span>tables</span></a> </li>
-                  <li className="subCatli2"><a href="#"><span>oultry</span></a></li>
-                  <li className="subCatli2"><a href="#"><span>Seod</span></a></li>
+                  <li className="subCatli2"><a href="#"><Link>Fts</Link></a></li>
+                  <li className="subCatli2"><a href="#"><Link>tables</Link></a> </li>
+                  <li className="subCatli2"><a href="#"><Link>oultry</Link></a></li>
+                  <li className="subCatli2"><a href="#"><Link>Seod</Link></a></li>
                 </ol>
 
               </li>

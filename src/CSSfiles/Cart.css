@@ -1,8 +1,32 @@
-.Chart{
-    display: flex;
-    flex: 2;
-    flex-direction: column;
-    margin: 10px;
-    padding: 20px;
-
+.df{display: flex; align-items: center; justify-content: center;} 
+h2{text-align: center;} 
+/* .cart{
+ width: 90%;
+ margin: 0 auto;
+ border-bottom:1px solid grey;
+ padding-bottom: 10px;
+ justify-content: space-between;
+} */
+.cart>img{
+ width: 7rem;
+ height: 7rem;
+ margin: 10px 15px 0 10px;
+ border-radius: 10px;
+} 
+.itemdetail{flex-direction:column; align-items:flex-start; gap:30px; flex:1;} 
+.nameprice{border-bottom: 1px dashed grey;position:relative; width:100%;}
+.close{position:absolute;right:10px;top:20px}
+.qtyttlprice{
+gap: 10px;
+} 
+.qtybtns{
+width: 8rem;
+justify-content: space-around;
+border: 1px solid grey;
+border-radius:5px;
+padding: 4px 0;
+}
+.summary{border-bottom:1px solid grey;}
+.total{justify-content:space-between; margin: 0 auto;
+width: 90%;
 }

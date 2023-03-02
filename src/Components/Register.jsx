@@ -75,10 +75,10 @@ console.log(formData)
 
   return (
     <>
-    <div className="flex flex-col items-center bg-scroll"  style={{
+    <div className="flex flex-col items-center bg-scroll py-4"  style={{
           backgroundImage: 'url('+pic+')',
           backgroundSize: "cover",
-          height: "100vh",
+          height: "max-content",
           color: "#f5f5f5"
         }}>
       <h1 className="text-4xl pb-8">Register</h1>
@@ -101,7 +101,7 @@ console.log(formData)
         <input
           type="text"
           name="email"
-          placeholder='Muhammad'
+          placeholder='example@mail.com'
 
           value={formData.email}
           onChange={handleChange}
@@ -114,7 +114,7 @@ console.log(formData)
         <input
           type="text"
           name="phone"
-          placeholder='Muhammad'
+          placeholder='0000 0000000'
 
           value={formData.phone}
           onChange={handleChange}
