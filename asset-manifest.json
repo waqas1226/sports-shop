@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/sports-shop/static/css/main.663803f0.css",
+    "main.js": "/sports-shop/static/js/main.ceb3bee7.js",
+    "static/js/787.f77758ea.chunk.js": "/sports-shop/static/js/787.f77758ea.chunk.js",
+    "static/media/ball2.jpg": "/sports-shop/static/media/ball2.abd39dbc9fac6de6389e.jpg",
+    "static/media/football2.jpg": "/sports-shop/static/media/football2.7186a64156b2dce4b01b.jpg",
+    "static/media/bat.jpg": "/sports-shop/static/media/bat.6a1c158a29e68381512a.jpg",
+    "static/media/Cricket.jpg": "/sports-shop/static/media/Cricket.065f08049260242f6d61.jpg",
+    "static/media/badminton_cover.jpg": "/sports-shop/static/media/badminton_cover.d3e2ec3ff2e92dec7704.jpg",
+    "static/media/Shuttle1.jpg": "/sports-shop/static/media/Shuttle1.ac0fa9b077812b45e438.jpg",
+    "static/media/BasketBall1.jpg": "/sports-shop/static/media/BasketBall1.8d8d74cdbf9a36a0daab.jpg",
+    "static/media/Football.jpg": "/sports-shop/static/media/Football.808330af195147032dbf.jpg",
+    "static/media/BasketBall.jpg": "/sports-shop/static/media/BasketBall.f6c9339bcde8d30794f1.jpg",
+    "static/media/Badminton.jpg": "/sports-shop/static/media/Badminton.e53d9f407c8570fb582e.jpg",
+    "static/media/bird.jpg": "/sports-shop/static/media/bird.cac16c0acf9d25b32368.jpg",
+    "static/media/ball.jpg": "/sports-shop/static/media/ball.dd0f29361aa3dbb395f2.jpg",
+    "static/media/Sportswares.jpg": "/sports-shop/static/media/Sportswares.c2cae76a5eb3efae5d60.jpg",
+    "static/media/tableTracket.jpg": "/sports-shop/static/media/tableTracket.9c900dbf30a530102990.jpg",
+    "static/media/Shuttle.jpg": "/sports-shop/static/media/Shuttle.80a4fc95b49042c17d88.jpg",
+    "static/media/Featured.jpg": "/sports-shop/static/media/Featured.0197f3f47cc766d191c1.jpg",
+    "static/media/Hockey.jpg": "/sports-shop/static/media/Hockey.ab74d9a75883e7aa2cc5.jpg",
+    "static/media/OIP.jpg": "/sports-shop/static/media/OIP.936c07d774beea316355.jpg",
+    "index.html": "/sports-shop/index.html",
+    "main.663803f0.css.map": "/sports-shop/static/css/main.663803f0.css.map",
+    "main.ceb3bee7.js.map": "/sports-shop/static/js/main.ceb3bee7.js.map",
+    "787.f77758ea.chunk.js.map": "/sports-shop/static/js/787.f77758ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.663803f0.css",
+    "static/js/main.ceb3bee7.js"
+  ]
+}
