@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sports-shop/static/css/main.663803f0.css",
-    "main.js": "/sports-shop/static/js/main.ceb3bee7.js",
+    "main.js": "/sports-shop/static/js/main.cb0abf96.js",
     "static/js/787.f77758ea.chunk.js": "/sports-shop/static/js/787.f77758ea.chunk.js",
     "static/media/ball2.jpg": "/sports-shop/static/media/ball2.abd39dbc9fac6de6389e.jpg",
     "static/media/football2.jpg": "/sports-shop/static/media/football2.7186a64156b2dce4b01b.jpg",
@@ -23,11 +23,11 @@
     "static/media/OIP.jpg": "/sports-shop/static/media/OIP.936c07d774beea316355.jpg",
     "index.html": "/sports-shop/index.html",
     "main.663803f0.css.map": "/sports-shop/static/css/main.663803f0.css.map",
-    "main.ceb3bee7.js.map": "/sports-shop/static/js/main.ceb3bee7.js.map",
+    "main.cb0abf96.js.map": "/sports-shop/static/js/main.cb0abf96.js.map",
     "787.f77758ea.chunk.js.map": "/sports-shop/static/js/787.f77758ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.663803f0.css",
-    "static/js/main.ceb3bee7.js"
+    "static/js/main.cb0abf96.js"
   ]
 }
