@@ -23,37 +23,33 @@ const ProductView = () => {
   let navigate = useNavigate();
 const {dispatch} = useContext(CartContext)
 const location=useLocation();
-  const prodid=location.pathname[1]
-  const prod=bats.filter(bat=>bat.id==prodid);
-  console.log(prod[0])
-  console.log(prod[0].name)
-
-
-
+console.log(location.state.data.filter((item)=>item.id==location.state.id));
+const Item=location.state.data.filter((item)=>item.id==location.state.id)
+  // const prodid=location.pathname[2]
+  // const prod=bats.filter(bat=>bat.id==prodid);
+const prod=[{name:'hello' , price:0}]
   
   const AddToCart = () => {
     dispatch({type:'AddNew', payload:prod[0]})
-    console.log("add pv to cart");
-  //  navigate('/Search', {state:{destination, dates, options}})
   }
   return (
   <div className="x">
     <div className="flex flex-col items-center gap-8 w-4/5 mx-auto py-2 mb-7 br">
 
-      <h2 className="text-3xl ">{prod[0].name}</h2>
-    <img src={pic} alt="pic" className="w-4/5 mx-auto" />
+      <h2 className="text-3xl ">{Item[0]?.name}</h2>
+    <img src={Item[0]?.img} alt="pic" className="w-4/5 mx-auto" />
       
     <div className="flex flex-col items-center w-4/5 gap-6">
 
     <div className="flex items-center gap-1 sm:gap-9 justify-around">
-    <img src={pic} alt="pic" className="w-20" />
-    <img src={pic} alt="pic" className="w-20" />
-    <img src={pic} alt="pic" className="w-20" />
-    <img src={pic} alt="pic" className="w-20" />
+    <img src={Item[0]?.img} alt="pic" className="w-20" />
+    <img src={Item[0]?.img} alt="pic" className="w-20" />
+    <img src={Item[0]?.img} alt="pic" className="w-20" />
+    <img src={Item[0]?.img} alt="pic" className="w-20" />
     </div>
 
     <b className="text-lg brgt brgb w-full lg:w-full">
-      Price:{prod[0].price}
+      Price:{Item[0]?.price}
     </b>
     <div className="brgb flex justify-around w-full">
       <span><b>Stock:</b> in stock</span>

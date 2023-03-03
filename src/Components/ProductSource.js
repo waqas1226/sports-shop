@@ -11,7 +11,7 @@ export const bats=[
                 "brand": "Adidas",
                 "color": "Red",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
-                "qty":0,
+                "qty":1,
                 "size": "L",
                 "weight": 2.5
               },
@@ -26,7 +26,7 @@ export const bats=[
                 "color": "Black",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
                 
-                "qty":0,
+                "qty":1,
                 "size": "M",
                 "weight": 2.3
               },
@@ -41,7 +41,7 @@ export const bats=[
                 "color": "Blue",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
                 
-                "qty":0,
+                "qty":1,
                 "size": "S",
                 "weight": 2.1
               },
@@ -56,7 +56,7 @@ export const bats=[
                 "color": "Green",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
 
-                "qty":0,
+                "qty":1,
                 "size": "L",
                 "weight": 2.7
               },
@@ -71,7 +71,7 @@ export const bats=[
                 "color": "Yellow",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
 
-                "qty":0,
+                "qty":1,
                 "size": "M",
                 "weight": 2.5
               },
@@ -86,7 +86,7 @@ export const bats=[
                 "color": "Yellow",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
 
-                "qty":0,
+                "qty":1,
                 "size": "M",
                 "weight": 2.5
               },
@@ -101,7 +101,7 @@ export const bats=[
                 "color": "Yellow",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FCricket.jpg?alt=media&token=51e87439-4ef1-41ed-af7c-2fca9cddb550",
 
-                "qty":0,
+                "qty":1,
                 "size": "M",
                 "weight": 2.5
               },
@@ -114,7 +114,9 @@ export const bats=[
                 "quantity": 10,
                 "brand": "GM",
                 "color": "Yellow",
-                "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Fbat.jpg?alt=media&token=bd8ad55c-20e3-474e-adc1-b49e0ea5a8ba",
+
+                "qty":1,
                 "size": "M",
                 "weight": 2.5
               }
@@ -131,7 +133,8 @@ export const bats=[
                 "quantity": 100,
                 "brand": "Adidas",
                 "color": "Red",
-                "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Fball2.jpg?alt=media&token=9a8670b7-77a6-40d4-a6b9-74d2d5ecfa24",
+                "qty":1,
                 "size": "",
                 "weight": 160
               },
@@ -144,7 +147,9 @@ export const bats=[
                 "quantity": 200,
                 "brand": "SG",
                 "color": "White",
-                "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Fball2.jpg?alt=media&token=9a8670b7-77a6-40d4-a6b9-74d2d5ecfa24",
+
+                "qty":1,
                 "size": "",
                 "weight": 155
               },
@@ -159,7 +164,9 @@ export const bats=[
                         "quantity": 18,
                         "brand": "Puma",
                         "color": "Green",
-                        "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Fball2.jpg?alt=media&token=9a8670b7-77a6-40d4-a6b9-74d2d5ecfa24",
+
+                        "qty":1,
                         "size": "8",
                         "weight": 0.7
                       },
@@ -173,7 +180,9 @@ export const bats=[
                         "quantity": 25,
                         "brand": "Nike",
                         "color": "White",
-                        "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Fball2.jpg?alt=media&token=9a8670b7-77a6-40d4-a6b9-74d2d5ecfa24",
+
+                        "qty":1,
                         "size": "5",
                         "weight": 0.4
                       },
@@ -187,7 +196,9 @@ export const bats=[
                         "quantity": 30,
                         "brand": "Adidas",
                         "color": "Red",
-                        "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Fball2.jpg?alt=media&token=9a8670b7-77a6-40d4-a6b9-74d2d5ecfa24",
+
+                        "qty":1,
                         "size": "5",
                         "weight": 0.45
                       }
@@ -203,7 +214,8 @@ export const bats=[
                 "quantity": 100,
                 "brand": "Adidas",
                 "color": "Red",
-                "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBasketBall.jpg?alt=media&token=e02d6612-781a-4bcb-8add-32ea9446db16",
+                "qty":1,
                 "size": "",
                 "weight": 160
               },
@@ -217,7 +229,9 @@ export const bats=[
                 "quantity": 200,
                 "brand": "SG",
                 "color": "White",
-                "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBasketBall.jpg?alt=media&token=e02d6612-781a-4bcb-8add-32ea9446db16",
+
+                "qty":1,
                 "size": "",
                 "weight": 155
               },
@@ -234,7 +248,9 @@ export const bats=[
                         "quantity": 18,
                         "brand": "Puma",
                         "color": "Green",
-                        "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBasketBall.jpg?alt=media&token=e02d6612-781a-4bcb-8add-32ea9446db16",
+
+                        "qty":1,
                         "size": "8",
                         "weight": 0.7
                       },
@@ -248,7 +264,9 @@ export const bats=[
                         "quantity": 25,
                         "brand": "Nike",
                         "color": "White",
-                        "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBasketBall.jpg?alt=media&token=e02d6612-781a-4bcb-8add-32ea9446db16",
+
+                        "qty":1,
                         "size": "5",
                         "weight": 0.4
                       },
@@ -262,7 +280,9 @@ export const bats=[
                         "quantity": 30,
                         "brand": "Adidas",
                         "color": "Red",
-                        "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBasketBall.jpg?alt=media&token=e02d6612-781a-4bcb-8add-32ea9446db16",
+
+                        "qty":1,
                         "size": "5",
                         "weight": 0.45
                       }
@@ -278,7 +298,7 @@ export const bats=[
                 "brand": "Adidas",
                 "color": "Red",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
-                "qty":0,
+                "qty":1,
                 "size": "",
                 "weight": 160
               },
@@ -292,7 +312,7 @@ export const bats=[
                 "brand": "SG",
                 "color": "White",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
-                "qty":0,
+                "qty":1,
                 "size": "",
                 "weight": 155
               },
@@ -307,7 +327,9 @@ export const bats=[
                         "quantity": 18,
                         "brand": "Puma",
                         "color": "Green",
-                        "qty":0,
+                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
+
+                        "qty":1,
                         "size": "8",
                         "weight": 0.7
                       },
@@ -323,7 +345,7 @@ export const bats=[
                         "color": "White",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
 
-                        "qty":0,
+                        "qty":1,
                         "size": "5",
                         "weight": 0.4
                       },
@@ -339,7 +361,7 @@ export const bats=[
                         "color": "Red",
                 "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2Ffootball2.jpg?alt=media&token=308803b1-4145-4a9c-ba45-dc9511b78bbc",
 
-                        "qty":0,
+                        "qty":1,
                         "size": "5",
                         "weight": 0.45
                       }
@@ -359,7 +381,8 @@ export const bats=[
                             "quantity": 15,
                             "brand": "Yonex",
                             "color": "Black",
-                            "qty":0,
+                            "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBadminton.jpg?alt=media&token=56ce3897-29fe-48cf-9d21-a404257f55d7",
+                            "qty":1,
                             "size": "L",
                             "weight": 4.0
                           },
@@ -373,7 +396,9 @@ export const bats=[
                             "quantity": 20,
                             "brand": "Li-Ning",
                             "color": "Red",
-                            "qty":0,
+                            "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBadminton.jpg?alt=media&token=56ce3897-29fe-48cf-9d21-a404257f55d7",
+
+                            "qty":1,
                             "size": "M",
                             "weight": 3.5
                           },
@@ -387,7 +412,9 @@ export const bats=[
                             "quantity": 18,
                             "brand": "Victor",
                             "color": "Green",
-                            "qty":0,
+                            "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBadminton.jpg?alt=media&token=56ce3897-29fe-48cf-9d21-a404257f55d7",
+
+                            "qty":1,
                             "size": "S",
                             "weight": 3.0
                           },
@@ -401,7 +428,9 @@ export const bats=[
                             "quantity": 25,
                             "brand": "Yonex",
                             "color": "White",
-                            "qty":0,
+                            "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBadminton.jpg?alt=media&token=56ce3897-29fe-48cf-9d21-a404257f55d7",
+
+                            "qty":1,
                             "size": "N/A",
                             "weight": 0.5
                           },
@@ -415,7 +444,9 @@ export const bats=[
                             "quantity": 30,
                             "brand": "Fleet",
                             "color": "Yellow",
-                            "qty":0,
+                            "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FBadminton.jpg?alt=media&token=56ce3897-29fe-48cf-9d21-a404257f55d7",
+
+                            "qty":1,
                             "size": "N/A",
                             "weight": 0.5
                           }                         
@@ -432,7 +463,8 @@ export const bats=[
                                 "quantity": 15,
                                 "brand": "CCM",
                                 "color": "Black",
-                                "qty":0,
+                                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FHockey.jpg?alt=media&token=638bf9d1-cb98-4571-b292-0525ab34c4cb",
+                                "qty":1,
                                 "size": "L",
                                 "weight": 550
                               },
@@ -446,7 +478,9 @@ export const bats=[
                                 "quantity": 20,
                                 "brand": "Bauer",
                                 "color": "White",
-                                "qty":0,
+                                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FHockey.jpg?alt=media&token=638bf9d1-cb98-4571-b292-0525ab34c4cb",
+
+                                "qty":1,
                                 "size": "M",
                                 "weight": 530
                               },
@@ -460,7 +494,9 @@ export const bats=[
                                 "quantity": 18,
                                 "brand": "Sher-Wood",
                                 "color": "Black",
-                                "qty":0,
+                                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FHockey.jpg?alt=media&token=638bf9d1-cb98-4571-b292-0525ab34c4cb",
+
+                                "qty":1,
                                 "size": "S",
                                 "weight": 520
                               },
@@ -474,7 +510,9 @@ export const bats=[
                                 "quantity": 15,
                                 "brand": "CCM",
                                 "color": "Black",
-                                "qty":0,
+                                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FHockey.jpg?alt=media&token=638bf9d1-cb98-4571-b292-0525ab34c4cb",
+
+                                "qty":1,
                                 "size": "9",
                                 "weight": 1.3
                               },
@@ -488,7 +526,9 @@ export const bats=[
                                 "quantity": 20,
                                 "brand": "Bauer",
                                 "color": "White",
-                                "qty":0,
+                                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FHockey.jpg?alt=media&token=638bf9d1-cb98-4571-b292-0525ab34c4cb",
+
+                                "qty":1,
                                 "size": "10",
                                 "weight": 1.25
                               },
@@ -502,7 +542,9 @@ export const bats=[
                                 "quantity": 18,
                                 "brand": "Reebok",
                                 "color": "Black",
-                                "qty":0,
+                                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FHockey.jpg?alt=media&token=638bf9d1-cb98-4571-b292-0525ab34c4cb",
+
+                                "qty":1,
                                 "size": "11",
                                 "weight": 1.2
                               },
@@ -516,7 +558,9 @@ export const bats=[
                                 "quantity": 10,
                                 "brand": "CCM",
                                 "color": "White",
-                                "qty":0,
+                                "img":"https://firebasestorage.googleapis.com/v0/b/sports-shop-a0ea7.appspot.com/o/Sports%20items%2FHockey.jpg?alt=media&token=638bf9d1-cb98-4571-b292-0525ab34c4cb",
+
+                                "qty":1,
                                 "size": "34 inch",
                                 "weight": 3.0
                               }

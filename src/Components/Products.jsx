@@ -28,6 +28,10 @@ const Products = ({ title, data, nolimit }) => {
     dispatch({type:'AddNew', payload:produ[0]})
 
   }
+  const View=(id)=>{
+  navigate('/single', {state:{data, id}})
+  }
+
   return (
     <div className="ProdContainer">
       <div className="flex justify-between w-full items-baseline py-1 my-2 brbtm">
@@ -38,10 +42,10 @@ const Products = ({ title, data, nolimit }) => {
       <div className='proddiv'>
         {data.map((product, index) =>
           (nolimit || index < 4) && <div className='brlight relative flex flex-col items-center gap-1 justify-between w-11/12 p-2'>
-            <Link to={`/${product.id}`}>
-              <img src={product.img?product.img:pic} alt="pic" className="rounded-2xl" />
+            {/* <Link to={`/${title}/${product.id}`}> */}
+              <img src={product.img?product.img:pic} onClick={()=>View(product.id)} alt="pic" className="rounded-2xl" />
               <p className='text-sm py-2'>{product.name}</p>
-            </Link>
+            {/* </Link> */}
             <div className="flex items-center justify-around w-full">
              <ShoppingCartOutlined onClick={()=>AddtoCart(product.id)} className="cursor-pointer" />
               <p className='text-sm'>Price: {product.price}</p>

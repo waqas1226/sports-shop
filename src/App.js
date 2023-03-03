@@ -1,7 +1,7 @@
 import Home from './Components/Home';
 import React, { useContext, useEffect, useState } from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route, useNavigate, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, useNavigate, Navigate } from "react-router-dom";
 import ProductView from './Components/ProductView';
 import Register from './Components/Register';
 import Cart from './Components/Cart';
@@ -22,12 +22,12 @@ alert('Continued')
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
       <NavBar/>
         <Routes>
           <Route path="/">
               <Route index element={<Home/>} />
-              <Route exact path=":prodId" element={<ProductView/>} />
+              <Route exact path="single" element={<ProductView/>} />
               <Route exact path="register" element={<Register/>} />
 
               <Route path="categories">
@@ -51,7 +51,7 @@ alert('Continued')
            
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
